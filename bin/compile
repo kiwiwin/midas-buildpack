@@ -4,10 +4,10 @@ $stderr.sync = true
 build_dir = ARGV[0]
 cache_path = ARGV[1]
 
-prepare_db_properties
+#prepare_db_properties
 
-private
+#private
 
-def prepare_db_properties
+#def prepare_db_properties
 
-end
+#end
