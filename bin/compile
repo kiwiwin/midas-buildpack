@@ -7,12 +7,6 @@ build_dir = ARGV[0]
 cache_path = ARGV[1]
 
 
-install_java
-
-#prepare_db_properties
-
-private
-
 def install_java
 	`apt-get -y update`
 	`apt-get -y install python-software-properties`
@@ -21,6 +15,14 @@ def install_java
 	`echo debconf shared/accepted-oracle-license-v1-1 select true | sudo debconf-set-selections`
 	`apt-get -y install oracle-java8-installer`
 end
+
+install_java
+
+#prepare_db_properties
+
+private
+
+
 
 #def prepare_db_properties
 
