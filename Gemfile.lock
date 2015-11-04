@@ -1,0 +1,8 @@
+GEM
+  remote: https://ruby.taobao.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
