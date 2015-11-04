@@ -1,2 +1,6 @@
-default_process_types:
-  web: pwd
+#!/usr/bin/env ruby
+
+puts %Q(---
+  default_process_types:
+    web: pwd
+)
