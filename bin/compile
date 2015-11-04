@@ -8,6 +8,10 @@ cache_path = ARGV[1]
 
 
 def install_java
+	puts `git --version`
+
+	puts `curl http://www.baidu.com`
+
     puts "trying update"
 	`sudo apt-get -y update`
 	puts "update finish"
